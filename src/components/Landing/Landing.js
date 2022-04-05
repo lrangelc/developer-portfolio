@@ -61,6 +61,7 @@ function Landing() {
             },
             [t.breakpoints.down('sm')]: {
                 display: 'none',
+                // marginTop: '150px'
             },
         },
     }));
@@ -167,7 +168,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download={headerData.resumePdfName}
                                     target='_blank'
                                     rel='noreferrer'
                                 >
