@@ -1,10 +1,11 @@
-import resume from '../assets/pdf/resume.pdf';
+import resume from '../assets/pdf/Luis_Rangel-cv_Eng_2022.pdf';
 
 export const headerData = {
   name: 'Luis Rangel',
-  title: 'Web Developer',
+  title: 'Full Stack Developer',
   desciption:
-    "There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    "Hi I'm Luis Rangel, a Full Stack Developer and a newbie on a loop 🚀 from Guatemala, currently, A constant desire to improve, to learn more and take things to the next level!",
   image: 'https://lrangelc.github.io/images/profile.jpg',
   resumePdf: resume,
+  resumePdfName: 'Luis_Rangel-cv_Eng_2022',
 };

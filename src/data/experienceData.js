@@ -1,23 +1,23 @@
 export const experienceData = [
-    {
-        id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
-    },
-    {
-        id: 2,
-        company: 'Vehement Capital Partners',
-        jobtitle: 'Backend Developer',
-        startYear: '2019',
-        endYear: '2020'
-    },
-    {
-        id: 3,
-        company: 'Wonka Industries',
-        jobtitle: 'Marketing',
-        startYear: '2020',
-        endYear: 'Present'
-    },
-]
+  {
+    id: 1,
+    company: 'RPA',
+    jobtitle: 'CTO, Backend Developer',
+    startYear: '2012',
+    endYear: '2020',
+  },
+  {
+    id: 2,
+    company: 'Traeguate',
+    jobtitle: 'Full Stack Javascript Developer',
+    startYear: '2020',
+    endYear: '2020',
+  },
+  {
+    id: 3,
+    company: 'Rappid Design',
+    jobtitle: 'Full Stack Javascript Developer',
+    startYear: '2020',
+    endYear: 'Present',
+  },
+];

@@ -1219,6 +1219,11 @@
   "resolved" "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-10.1.0.tgz"
   "version" "10.1.0"
 
+"@emailjs/browser@^3.5.0":
+  "integrity" "sha512-VDpyaF2Xkt21/gRaV5TgZ8+CSsMy3+UTJo7K3/NL63gfBQIzrVQiK1U7Jw4PqpFDps9a1Gj7q8gfJ7thxUIRcw=="
+  "resolved" "https://registry.npmjs.org/@emailjs/browser/-/browser-3.5.0.tgz"
+  "version" "3.5.0"
+
 "@emotion/hash@^0.8.0":
   "integrity" "sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow=="
   "resolved" "https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz"

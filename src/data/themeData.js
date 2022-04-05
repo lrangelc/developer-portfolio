@@ -20,7 +20,6 @@ import {
 
 export const themeData = {
   theme: orangeThemeDark,
-//   theme: redThemeDark,
 };
 
 // Choose theme from above
