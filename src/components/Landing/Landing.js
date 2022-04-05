@@ -61,6 +61,7 @@ function Landing() {
             },
             [t.breakpoints.down('sm')]: {
                 display: 'none',
+                // marginTop: '150px'
             },
         },
     }));
