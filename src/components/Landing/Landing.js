@@ -167,7 +167,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download={headerData.resumePdfName}
                                     target='_blank'
                                     rel='noreferrer'
                                 >
