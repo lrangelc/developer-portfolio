@@ -7,13 +7,13 @@ import {
   Landing,
   About,
   Skills,
-  Testimonials,
-  Blog,
+  // Testimonials,
+  // Blog,
   Education,
   Experience,
   Contacts,
   Projects,
-  Services,
+  // Services,
   Achievement,
 } from '../../components';
 import { headerData } from '../../data/headerData';

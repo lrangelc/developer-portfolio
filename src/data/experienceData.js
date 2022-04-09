@@ -9,14 +9,14 @@ export const experienceData = [
   {
     id: 2,
     company: 'Traeguate',
-    jobtitle: 'Full Stack Javascript Developer',
+    jobtitle: 'Full Stack Developer',
     startYear: '2020',
     endYear: '2020',
   },
   {
     id: 3,
     company: 'Rappid Design',
-    jobtitle: 'Full Stack Javascript Developer',
+    jobtitle: 'Full Stack Developer',
     startYear: '2020',
     endYear: 'Present',
   },
