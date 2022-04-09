@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
-import axios from 'axios';
+// import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
@@ -299,11 +299,6 @@ function Contacts() {
             </div>
 
             <div className='socialmedia-icons'>
-              {socialsData.twitter && (
-                <a href={socialsData.twitter} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaTwitter aria-label='Twitter' />
-                </a>
-              )}
               {socialsData.github && (
                 <a href={socialsData.github} target='_blank' rel='noreferrer' className={classes.socialIcon}>
                   <FaGithub aria-label='GitHub' />
@@ -314,14 +309,19 @@ function Contacts() {
                   <FaLinkedinIn aria-label='LinkedIn' />
                 </a>
               )}
-              {socialsData.instagram && (
-                <a href={socialsData.instagram} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaInstagram aria-label='Instagram' />
-                </a>
-              )}
               {socialsData.medium && (
                 <a href={socialsData.medium} target='_blank' rel='noreferrer' className={classes.socialIcon}>
                   <FaMediumM aria-label='Medium' />
+                </a>
+              )}
+              {socialsData.twitter && (
+                <a href={socialsData.twitter} target='_blank' rel='noreferrer' className={classes.socialIcon}>
+                  <FaTwitter aria-label='Twitter' />
+                </a>
+              )}
+              {socialsData.instagram && (
+                <a href={socialsData.instagram} target='_blank' rel='noreferrer' className={classes.socialIcon}>
+                  <FaInstagram aria-label='Instagram' />
                 </a>
               )}
               {socialsData.blogger && (
