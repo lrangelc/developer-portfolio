@@ -7,6 +7,17 @@ npm run build
 firebase deploy
 ```
 
+## update app version
+
+```
+npm version patch
+npm run version
+```
+
+If I want to add execute rights to this file I would execute:
+chmod 755 version.sh
+and that permissions portion would become rwxr-xr-x. I can now execute this file if I want to by running ./version.sh
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/b26b0ebaaa13bec7fac796ee0b8296676df6ee0b/developer-portfolio/website.svg" alt="" width="450px"/>
 </p>
