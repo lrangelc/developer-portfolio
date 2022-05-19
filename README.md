@@ -527,7 +527,7 @@ export const educationData = [
 
 <br />
 
-# Contributors :man_technologist::woman_technologist:
+<!-- # Contributors :man_technologist::woman_technologist:
 
 <div>
     <table>
@@ -537,4 +537,4 @@ export const educationData = [
             <td align="center"><a href="https://github.com/Gayathry17"><img src="https://iamgayathrysuresh.web.app/static/media/gAvatar.37897d13.jpeg" width="135px;" height="135px; alt=""/><br /><b>Gayathry S</b></a></td>
         </tr>
     </table>
-</div>
+</div> -->
