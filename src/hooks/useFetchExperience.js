@@ -10,6 +10,8 @@ export const useFetchExperience = () => {
 
   useEffect(() => {
     getExperience().then((experience) => {
+      experience.sort((a, b) => b.data.order - a.data.order);
+
       setState({
         data: experience,
         loading: false,
