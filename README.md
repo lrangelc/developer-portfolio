@@ -2,18 +2,20 @@
 
 # Deploy
 
+```
 npm run build
-firelbase deploy
+firebase deploy
+```
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/b26b0ebaaa13bec7fac796ee0b8296676df6ee0b/developer-portfolio/website.svg" alt="" width="450px"/>
 </p>
 
-## Want to create a professional portfolio but cannot figure out how to? Use Developer Portfolio and create your own personalised portfolio today! With multiple themes to choose from, our easily customisable, user friendly website is designed to cater to developers and freelancers alike.
+## Want to create a professional portfolio but cannot figure out how to? Use Developer Portfolio and create your own personalised portfolio today! With multiple themes to choose from, our easily customisable, user friendly website is designed to cater to developers and freelancers alike
 
 <br />
 
-## Table of Contents :scroll:
+## Table of Contents :scroll
 
 - [Sections](#sections-bookmark)
 - [Demo](#demo-movie_camera)
@@ -32,7 +34,7 @@ firelbase deploy
 
 <br /><br />
 
-# Sections :bookmark:
+# Sections :bookmark
 
 - HOME
 - ABOUT
@@ -49,17 +51,17 @@ firelbase deploy
 
 <br /><br />
 
-# Demo :movie_camera:
+# Demo :movie_camera
 
 ![](https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/demo.gif)
 
-## View live demo [here](https://dev-portfolio-template.netlify.app/).
+## View live demo [here](https://dev-portfolio-template.netlify.app/)
 
 <br />
 
-# Themes :art:
+# Themes :art
 
-### Green :green_circle:
+### Green :green_circle
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/greenThemeLight.png" width="48%" alt="">
@@ -67,7 +69,7 @@ firelbase deploy
 </div>
 <br />
 
-### Black & White :black_circle:
+### Black & White :black_circle
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/bwThemeLight.png" width="48%" alt="">
@@ -75,7 +77,7 @@ firelbase deploy
 </div>
 <br />
 
-### Blue :large_blue_circle:
+### Blue :large_blue_circle
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/blueThemeLight.png" width="48%" alt="">
@@ -84,7 +86,7 @@ firelbase deploy
 
 <br />
 
-### Red :red_circle:
+### Red :red_circle
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/redThemeLight.png" width="48%" alt="">
@@ -93,7 +95,7 @@ firelbase deploy
 
 <br />
 
-### Orange :orange_circle:
+### Orange :orange_circle
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/orangeThemeLight.png" width="48%" alt="">
@@ -102,7 +104,7 @@ firelbase deploy
 
 <br />
 
-### Purple :purple_circle:
+### Purple :purple_circle
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/purpleThemeLight.png" width="48%" alt="">
@@ -120,7 +122,7 @@ firelbase deploy
 
 <br />
 
-### Yellow :yellow_circle:
+### Yellow :yellow_circle
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/themes/yellowThemeLight.png" width="48%" alt="">
@@ -129,16 +131,16 @@ firelbase deploy
 
 <br /> <br />
 
-# Installation :arrow_down:
+# Installation :arrow_down
 
 ### You will need to download Git and Node to run this project
 
 - [Git](https://git-scm.com/downloads)
 - [Node](https://nodejs.org/en/download/)
 
-## Also check [this](https://reactjs.org/docs/create-a-new-react-app.html) out if you are new to react.
+## Also check [this](https://reactjs.org/docs/create-a-new-react-app.html) out if you are new to react
 
-#### Make sure you have the latest version of both Git and Node on your computer.
+#### Make sure you have the latest version of both Git and Node on your computer
 
 ```
 node --version
@@ -147,14 +149,14 @@ git --version
 
 <br />
 
-# Getting Started :dart:
+# Getting Started :dart
 
 ### Fork and Clone the repo
 
 #### To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone hhttps://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
 cd developer-portfolio
 ```
 
@@ -184,7 +186,7 @@ yarn start
 
 <br />
 
-# Folder Structure :open_file_folder:
+# Folder Structure :open_file_folder
 
 ```bash
 ├── LICENSE
@@ -313,9 +315,9 @@ yarn start
 
 <br />
 
-# Usage :joystick:
+# Usage :joystick
 
-### Customize your details for each component in `src/data` [folder](https://github.com/lrangelc/developer-portfolio/tree/master/src/data).
+### Customize your details for each component in `src/data` [folder](https://github.com/lrangelc/developer-portfolio/tree/master/src/data)
 
 Eg:
 
@@ -342,7 +344,7 @@ export const headerData = {
 };
 ```
 
-#### Data for each component is divided into respective files.
+#### Data for each component is divided into respective files
 
 > #### Set website theme in [`src/data/themeData.js`](https://github.com/lrangelc/developer-portfolio/blob/master/src/data/themeData.js) and choose your favourite font from [`src/App.css`](https://github.com/lrangelc/developer-portfolio/blob/master/src/App.css)
 
@@ -382,17 +384,17 @@ export const educationData = [
 ];
 ```
 
-### Instructions and format for each section can be found inside the data files.
+### Instructions and format for each section can be found inside the data files
 
 <br />
 
-## Setting Up Contacts form :envelope_with_arrow:
+## Setting Up Contacts form :envelope_with_arrow
 
 > ### Follow these [instructions](https://github.com/lrangelc/developer-portfolio/wiki/Contacts) to connect contacts form with Google Sheet
 
 <br />
 
-# Hosting :globe_with_meridians:
+# Hosting :globe_with_meridians
 
 ## Netlify
 
@@ -420,9 +422,9 @@ export const educationData = [
 
 <br />
 
-# SEO :spider:
+# SEO :spider
 
-### Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.
+### Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines
 
 ### Add the below code snippet to `public/index.html` with your site info. This step is not mandatory
 
@@ -459,7 +461,7 @@ export const educationData = [
 
 <br />
 
-# Packages Used :package:
+# Packages Used :package
 
 |  Client Side Packages  |
 | :--------------------: |
@@ -478,13 +480,13 @@ export const educationData = [
 
 <br />
 
-# APIs Used :world_map:
+# APIs Used :world_map
 
 - [SheetDB](https://sheetdb.io/)
 
 <br />
 
-# Fonts and Images :performing_arts:
+# Fonts and Images :performing_arts
 
 ## Illustrations
 
@@ -507,7 +509,7 @@ export const educationData = [
 
 <br />
 
-# Upcoming Features :construction:
+# Upcoming Features :construction
 
 - Light/Dark theme toggle
 - More illustrations to choose from
@@ -516,7 +518,7 @@ export const educationData = [
 
 <br /><br />
 
-## Raise an issue for...
+## Raise an issue for
 
 - Found a bug
 - New theme
