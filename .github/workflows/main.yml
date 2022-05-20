@@ -40,7 +40,7 @@ jobs:
       - name: Deploy to Firebase
         uses: docker://w9jds/firebase-action:master
         with:
-          args: deploy
+          args: deploy --token "$FIREBASE_TOKEN"
           # args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
