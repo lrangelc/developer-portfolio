@@ -1,2 +1,2 @@
-// This file was generated on Thu May 19 17:52:22 CST 2022
-export const appVersion = '0.1.2';
+// This file was generated on Thu May 19 19:13:35 CST 2022
+export const appVersion = '0.1.3';
