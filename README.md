@@ -220,7 +220,7 @@ yarn start
 │   │   │   └── Bestermind
 │   │   │       └── BestermindRegular.ttf
 │   │   ├── pdf
-│   │   │   └── Luis_Rangel-cv_Eng_2022.pdf
+│   │   │   └── Luis_Rangel-Resume.pdf
 │   │   └── svg
 │   │       ├── about
 │   │       ├── contacts
@@ -343,7 +343,7 @@ export const headerData = {
 
 // You can also import image and PDF from assets as shown below
 
-import resume from '../assets/pdf/Luis_Rangel-cv_Eng_2022.pdf';
+import resume from '../assets/pdf/Luis_Rangel-Resume.pdf';
 import profileImg from '../assets/png/profileImg';
 
 export const headerData = {
