@@ -147,7 +147,7 @@ function Contacts() {
         };
 
         emailjs.send(emailCredentials.USER_ID, emailCredentials.TEMPLATE_ID, responseData).then(
-          function (response) {
+          function(response) {
             console.log('SUCCESS!', response.status, response.text);
             setSuccess(true);
             setErrMsg('');
@@ -157,7 +157,7 @@ function Contacts() {
             setMessage('');
             setOpen(false);
           },
-          function (error) {
+          function(error) {
             console.log('FAILED...', error);
           }
         );
@@ -183,65 +183,65 @@ function Contacts() {
   };
 
   return (
-    <div className='contacts' id='contacts' style={{ backgroundColor: theme.secondary }}>
-      <div className='contacts--container'>
+    <div className="contacts" id="contacts" style={{ backgroundColor: theme.secondary }}>
+      <div className="contacts--container">
         <h1 style={{ color: theme.primary }}>Contacts</h1>
-        <div className='contacts-body'>
-          <div className='contacts-form'>
+        <div className="contacts-body">
+          <div className="contacts-form">
             <form onSubmit={handleContactForm}>
-              <div className='input-container'>
-                <label htmlFor='Name' className={classes.label}>
+              <div className="input-container">
+                <label htmlFor="Name" className={classes.label}>
                   Name
                 </label>
                 <input
-                  placeholder='John Doe'
+                  placeholder="John Doe"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  type='text'
-                  name='Name'
+                  type="text"
+                  name="Name"
                   className={`form-input ${classes.input}`}
                 />
               </div>
-              <div className='input-container'>
-                <label htmlFor='Email' className={classes.label}>
+              <div className="input-container">
+                <label htmlFor="Email" className={classes.label}>
                   Email
                 </label>
                 <input
-                  placeholder='John@doe.com'
+                  placeholder="John@doe.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  type='email'
-                  name='Email'
+                  type="email"
+                  name="Email"
                   className={`form-input ${classes.input}`}
                 />
               </div>
-              <div className='input-container'>
-                <label htmlFor='Message' className={classes.label}>
+              <div className="input-container">
+                <label htmlFor="Message" className={classes.label}>
                   Message
                 </label>
                 <textarea
-                  placeholder='Type your message....'
+                  placeholder="Type your message...."
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  type='text'
-                  name='Message'
+                  type="text"
+                  name="Message"
                   className={`form-message ${classes.message}`}
                 />
               </div>
 
-              <div className='submit-btn'>
-                <button type='submit' className={classes.submitBtn}>
+              <div className="submit-btn">
+                <button type="submit" className={classes.submitBtn}>
                   <p>{!success ? 'Send' : 'Sent'}</p>
-                  <div className='submit-icon'>
+                  <div className="submit-icon">
                     <AiOutlineSend
-                      className='send-icon'
+                      className="send-icon"
                       style={{
                         animation: !success ? 'initial' : 'fly 0.8s linear both',
                         position: success ? 'absolute' : 'initial',
                       }}
                     />
                     <AiOutlineCheckCircle
-                      className='success-icon'
+                      className="success-icon"
                       style={{
                         display: !success ? 'none' : 'inline-flex',
                         opacity: !success ? '0' : '1',
@@ -263,8 +263,8 @@ function Contacts() {
               <SnackbarContent
                 action={
                   <React.Fragment>
-                    <IconButton size='small' aria-label='close' color='inherit' onClick={handleClose}>
-                      <CloseIcon fontSize='small' />
+                    <IconButton size="small" aria-label="close" color="inherit" onClick={handleClose}>
+                      <CloseIcon fontSize="small" />
                     </IconButton>
                   </React.Fragment>
                 }
@@ -278,87 +278,87 @@ function Contacts() {
             </Snackbar>
           </div>
 
-          <div className='contacts-details'>
-            <a href={`mailto:${contactsData.email}`} className='personal-details'>
+          <div className="contacts-details">
+            <a href={`mailto:${contactsData.email}`} className="personal-details">
               <div className={classes.detailsIcon}>
                 <FiAtSign />
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
             </a>
-            <a href={`tel:${contactsData.phone}`} className='personal-details'>
+            <a href={`tel:${contactsData.phone}`} className="personal-details">
               <div className={classes.detailsIcon}>
                 <FiPhone />
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.phone}</p>
             </a>
-            <div className='personal-details'>
+            <div className="personal-details">
               <div className={classes.detailsIcon}>
                 <HiOutlineLocationMarker />
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.address}</p>
             </div>
 
-            <div className='socialmedia-icons'>
+            <div className="socialmedia-icons">
               {socialsData.github && (
-                <a href={socialsData.github} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaGithub aria-label='GitHub' />
+                <a href={socialsData.github} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaGithub aria-label="GitHub" />
                 </a>
               )}
               {socialsData.linkedIn && (
-                <a href={socialsData.linkedIn} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaLinkedinIn aria-label='LinkedIn' />
+                <a href={socialsData.linkedIn} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaLinkedinIn aria-label="LinkedIn" />
                 </a>
               )}
               {socialsData.medium && (
-                <a href={socialsData.medium} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaMediumM aria-label='Medium' />
+                <a href={socialsData.medium} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaMediumM aria-label="Medium" />
                 </a>
               )}
               {socialsData.twitter && (
-                <a href={socialsData.twitter} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaTwitter aria-label='Twitter' />
+                <a href={socialsData.twitter} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaTwitter aria-label="Twitter" />
                 </a>
               )}
               {socialsData.instagram && (
-                <a href={socialsData.instagram} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaInstagram aria-label='Instagram' />
+                <a href={socialsData.instagram} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaInstagram aria-label="Instagram" />
                 </a>
               )}
               {socialsData.blogger && (
-                <a href={socialsData.blogger} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaBloggerB aria-label='Blogger' />
+                <a href={socialsData.blogger} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaBloggerB aria-label="Blogger" />
                 </a>
               )}
               {socialsData.youtube && (
-                <a href={socialsData.youtube} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaYoutube aria-label='YouTube' />
+                <a href={socialsData.youtube} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaYoutube aria-label="YouTube" />
                 </a>
               )}
               {socialsData.reddit && (
-                <a href={socialsData.reddit} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaRedditAlien aria-label='Reddit' />
+                <a href={socialsData.reddit} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaRedditAlien aria-label="Reddit" />
                 </a>
               )}
               {socialsData.stackOverflow && (
-                <a href={socialsData.stackOverflow} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaStackOverflow aria-label='Stack Overflow' />
+                <a href={socialsData.stackOverflow} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaStackOverflow aria-label="Stack Overflow" />
                 </a>
               )}
               {socialsData.codepen && (
-                <a href={socialsData.codepen} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaCodepen aria-label='CodePen' />
+                <a href={socialsData.codepen} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaCodepen aria-label="CodePen" />
                 </a>
               )}
               {socialsData.gitlab && (
-                <a href={socialsData.gitlab} target='_blank' rel='noreferrer' className={classes.socialIcon}>
-                  <FaGitlab aria-label='GitLab' />
+                <a href={socialsData.gitlab} target="_blank" rel="noopener noreferrer" className={classes.socialIcon}>
+                  <FaGitlab aria-label="GitLab" />
                 </a>
               )}
             </div>
           </div>
         </div>
       </div>
-      <img src={theme.contactsimg} alt='contacts' className='contacts--img' />
+      <img src={theme.contactsimg} alt="contacts" className="contacts--img" />
     </div>
   );
 }
