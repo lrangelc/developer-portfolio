@@ -14,7 +14,7 @@ import {
   Contacts,
   Projects,
   // Services,
-  Achievement,
+  // Achievement,
 } from '../../components';
 import { headerData } from '../../data/headerData';
 
@@ -32,7 +32,7 @@ function Main() {
       <Skills />
       <Experience />
       <Projects />
-      <Achievement />
+      {/* <Achievement /> */}
       {/* <Services /> */}
       {/* <Testimonials /> */}
       {/* <Blog /> */}
